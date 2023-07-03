@@ -5,7 +5,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-color: rgba(3, 2, 2, 0.77);
 }
 
 .container {
@@ -16,6 +16,10 @@ body {
 
 h2 {
   margin-top: 0;
+  color: red;
+  text-shadow: 2px 1px rgb(3, 3, 3);
+  text-align: center;
+  font-size: xx-large;
 }
 
 /* Show List Styles */
@@ -31,6 +35,7 @@ h2 {
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
+  cursor: pointer;
 }
 
 .show-card:hover {
